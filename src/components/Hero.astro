@@ -1,0 +1,42 @@
+---
+export interface Props {
+  name: string;
+  headline: string;
+  bio: string;
+  photo: string;
+  pdfUrl: string;
+  introNote?: string | null;
+}
+const { name, headline, bio, photo, pdfUrl, introNote } = Astro.props;
+---
+<section id="about" class="pt-20 pb-section-mobile md:pb-section bg-background">
+  <div class="max-w-content mx-auto px-6">
+    {introNote && (
+      <div class="mb-10 border-l-4 border-secondary pl-5 py-2 bg-surface-container-low">
+        <p class="text-body-md text-on-surface-variant italic">{introNote}</p>
+      </div>
+    )}
+    <div class="flex flex-col md:flex-row md:items-center gap-10 md:gap-16">
+      <!-- Photo -->
+      <div class="flex-shrink-0">
+        <img
+          src={photo}
+          alt={name}
+          class="avatar w-32 h-32 md:w-44 md:h-44 object-cover border-4 border-surface-container-high"
+          onerror="this.src='https://ui-avatars.com/api/?name=George+Nguyen&size=176&background=002444&color=ffffff&bold=true'"
+        />
+      </div>
+      <!-- Text -->
+      <div class="flex-1">
+        <p class="section-label mb-2">CEO, Serial Entrepreneur</p>
+        <h1 class="text-display-lg-mobile md:text-display-lg text-primary mb-4">{name}</h1>
+        <p class="text-headline-sm text-primary-container font-semibold mb-6">{headline}</p>
+        <p class="text-body-lg text-on-surface-variant max-w-2xl mb-8">{bio}</p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact" class="btn-primary">Let's Talk</a>
+          <a href="#contact" class="btn-outline">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,42 @@
+---
+export interface Project {
+  id: string;
+  title: string;
+  description: string;
+  link?: string;
+  linkLabel?: string;
+}
+export interface Props {
+  projects: Project[];
+  anchor?: string;
+  heading?: string;
+  eyebrow?: string;
+}
+const { projects, anchor = 'projects', heading = 'Strategic Projects & Key Achievements', eyebrow = 'Projects' } = Astro.props;
+---
+<section id={anchor} class="py-section-mobile md:py-section bg-surface-container-low">
+  <div class="max-w-content mx-auto px-6">
+    <span class="section-label">{eyebrow}</span>
+    <h2 class="text-headline-md text-on-surface font-semibold mb-10">{heading}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {projects.map((project) => (
+        <div class="card group">
+          <h3 class="card-title text-headline-sm text-primary font-semibold mb-3 transition-colors duration-200 group-hover:text-secondary">
+            {project.title}
+          </h3>
+          <p class="text-body-md text-on-surface-variant mb-6 flex-1">{project.description}</p>
+          {project.link && project.link !== '#' && (
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-label-caps text-primary uppercase tracking-widest border-b border-primary pb-0.5 transition-colors duration-200 hover:text-secondary hover:border-secondary"
+            >
+              {project.linkLabel || 'View Project'} →
+            </a>
+          )}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,308 @@
+{
+  "name": "George Nguyen",
+  "title": "CEO & Serial Entrepreneur",
+  "bio": "A dynamic innovation leader and serial entrepreneur with 20+ years of experience designing and managing entrepreneurial programs across tech, education, and startups. Skilled in mentoring startups, fostering collaboration, and leading innovation initiatives. Passionate about driving change through strategic partnerships, business incubation, and revenue-generating opportunities.",
+  "email": "george.nguyen79@gmail.com",
+  "phone": "+84-366666188",
+  "telegram": "@martian_one",
+  "linkedin": "https://linkedin.com/in/georgenguyen",
+  "photo": "/images/george.jpg",
+  "pdfUrl": "/cv/george-nguyen-cv.pdf",
+  "experience": [
+    {
+      "id": "synthesis-vietcap",
+      "role": "PM & Senior Consultant",
+      "company": "Synthesis (Confidential Client)",
+      "dates": "2024 – Present",
+      "bullets": [
+        "Leading end-to-end replacement of a 12-year-old legacy securities trading platform.",
+        "Implementing AI-upskilling programs for engineering and management staff.",
+        "Introducing Jira-based agile transformation for senior leadership workflows.",
+        "Embedding AI into the SDLC and Vibe Coding practices on the new core platform.",
+        "Managing multi-stakeholder engagement across C-suite, tech teams, and vendors."
+      ]
+    },
+    {
+      "id": "co-founder-jdi-one",
+      "role": "Co-Founder & Managing Partner",
+      "company": "JDI ONE",
+      "bullets": [
+        "Leading the company's strategic plans and long-term vision.",
+        "Managing day-to-day operations and executive decision-making.",
+        "Mentoring the management team toward high-performance outcomes.",
+        "Overseeing financials and investor relations."
+      ]
+    },
+    {
+      "id": "managing-director-tesse-lab",
+      "role": "Managing Director & Shareholder",
+      "company": "TESSE LAB – EDUTEK.IO",
+      "bullets": [
+        "Led innovation programs and startup incubations in the EdTech sector.",
+        "Mentored startups through the product development lifecycle.",
+        "Built partnerships with local and global education institutions.",
+        "Developed and managed revenue-generating workshops and events."
+      ]
+    },
+    {
+      "id": "country-manager-2359",
+      "role": "Country Manager",
+      "company": "2359",
+      "bullets": [
+        "Led a team of 50+ to drive company strategy in tech.",
+        "Launched innovation programs supporting early-stage startups.",
+        "Managed cross-functional teams to execute projects and ensure financial performance.",
+        "Drove growth in regional and international markets."
+      ]
+    },
+    {
+      "id": "president-we-ecosystem",
+      "role": "President",
+      "company": "WE Ecosystem for SME & Startups",
+      "bullets": [
+        "Represented the Association and its members to organizations, industry, and government.",
+        "Appointed all committee and task force chairs per the Bylaws.",
+        "Facilitated accomplishment of the Association's strategic goals and objectives.",
+        "Established annual performance objectives."
+      ]
+    },
+    {
+      "id": "visiting-lecturer-uef",
+      "role": "Visiting Lecturer",
+      "company": "University of Economics & Finance / RMIT",
+      "bullets": [
+        "Delivered courses: Product Development & Innovation, Entrepreneurship, Strategic E-Marketing, Strategic Management, Strategic Operation Management, Business Information Systems."
+      ]
+    },
+    {
+      "id": "lecturer-rmit-innovation",
+      "role": "Lecturer, Part-Time (Innovation & Entrepreneurship)",
+      "company": "RMIT University",
+      "bullets": [
+        "Designed and delivered courses on product development and entrepreneurship.",
+        "Collaborated with industry partners on real-world innovation challenges.",
+        "Led workshops to foster entrepreneurial mindsets and industry connections."
+      ]
+    },
+    {
+      "id": "blockchain-consultant-mard",
+      "role": "Blockchain Consultant",
+      "company": "Ministry of Agriculture and Rural Development",
+      "project": "Managing Raw Material Areas Connected with Product Traceability",
+      "bullets": [
+        "Developed software and provided transfer guidance to the Department of Agriculture and Rural Development (DARD).",
+        "Procured IT services including a blockchain platform (10,000 hash codes), digital mapping, and remote sensing data.",
+        "Upgraded and extended IT services in subsequent phases."
+      ]
+    },
+    {
+      "id": "blockchain-consultant-ginseng",
+      "role": "Blockchain Consultant",
+      "company": "Da Nang Department of Science and Technology",
+      "project": "Ngoc Linh Ginseng Traceability",
+      "bullets": [
+        "Developed software and provided transfer guidance to DARD.",
+        "Procured IT services including blockchain platform, digital mapping, and remote sensing data.",
+        "Upgraded and extended IT services across subsequent phases."
+      ]
+    },
+    {
+      "id": "advisor-underground",
+      "role": "Advisor",
+      "company": "Underground Agencies Network",
+      "bullets": [
+        "Advised on community strategic objectives and growth.",
+        "Sourced and secured sponsors for community initiatives.",
+        "Communicated rules and regulations across the network.",
+        "Conducted research on topics relevant to the community."
+      ]
+    },
+    {
+      "id": "founder-gdg-vietnam",
+      "role": "Founder",
+      "company": "Google Developer Groups Vietnam",
+      "bullets": [
+        "Oversaw chapter activities nationwide.",
+        "Advised, supported, and guided chapters to run conferences, workshops, and training events.",
+        "Served as the contact point between Google Inc. and the developer community."
+      ]
+    },
+    {
+      "id": "president-rmit-alumni",
+      "role": "President, RMIT Alumni Association",
+      "company": "RMIT University",
+      "bullets": [
+        "Coordinated all association planning and action.",
+        "Acted as the primary contact point between RMIT and the alumni association."
+      ]
+    },
+    {
+      "id": "community-dev-vda",
+      "role": "Community Development Director",
+      "company": "Vietnam Design Association",
+      "bullets": [
+        "Led strategy planning for community growth of the association (under Ministry of Information)."
+      ]
+    },
+    {
+      "id": "lecturer-rmit",
+      "role": "Lecturer",
+      "company": "RMIT University",
+      "bullets": [
+        "Teaching and course coordination.",
+        "Research, scholarship, and innovation.",
+        "Curriculum development.",
+        "Industry engagement and alumni liaison for the Center."
+      ]
+    },
+    {
+      "id": "national-ecommerce-dhl",
+      "role": "National E-Commerce Manager",
+      "company": "DHL Express Corporation, Vietnam",
+      "bullets": [
+        "Proposed and executed the national e-commerce strategy.",
+        "Led the team to ensure DHL's e-commerce tools achieved sales targets and customer satisfaction.",
+        "Maintained and developed relationships with existing e-commerce customers."
+      ]
+    },
+    {
+      "id": "visiting-lecturer-bolton",
+      "role": "Visiting Lecturer, MBA Program",
+      "company": "Bolton University, UK",
+      "bullets": [
+        "Courses taught: Strategic E-Marketing, Strategic Management, Strategic Operation Management, Business Information Systems, ICT Challenges in Management, Change Management."
+      ]
+    },
+    {
+      "id": "trade-marketing-bat",
+      "role": "Trade Marketing System Dev Manager",
+      "company": "British American Tobacco, Vietnam",
+      "bullets": [
+        "Recommended, developed, and directed the update and maintenance of the Trade Marketing System.",
+        "Drove improved efficiency and effectiveness of marketing processes.",
+        "Monitored and coordinated implementation of approved processes.",
+        "Coordinated follow-ups on Trade Marketing Report System with Brand, Distribution, and IT."
+      ]
+    },
+    {
+      "id": "project-manager-nortel",
+      "role": "Project Manager",
+      "company": "Nortel Network, Canada",
+      "bullets": [
+        "Developed and maintained project plans.",
+        "Daily monitoring of project progress, delivery, and relevant issues.",
+        "Communicated with customers for requirement clarification.",
+        "Optimized CMMI, ISO, TL900, and BL900 processes.",
+        "Involved in interview and recruitment processes."
+      ]
+    },
+    {
+      "id": "developer-lead-nortel",
+      "role": "Developer × Team Leader",
+      "company": "Nortel Network, Canada",
+      "bullets": [
+        "Led a team of Software Developers and Business Analysts.",
+        "Planned and reported progress to stakeholders.",
+        "Took full responsibility for delivery.",
+        "Served as Internal Trainer; conducted code review and QA."
+      ]
+    }
+  ],
+  "skills": [
+    { "id": "team-leadership", "label": "Team Leadership" },
+    { "id": "innovation-design", "label": "Innovation Program Design" },
+    { "id": "entrepreneurship-edu", "label": "Entrepreneurship Education" },
+    { "id": "project-management", "label": "Project Management" },
+    { "id": "stakeholder-engagement", "label": "Stakeholder Engagement" },
+    { "id": "cross-functional", "label": "Cross-Functional Collaboration" },
+    { "id": "revenue-strategies", "label": "Revenue-Generating Strategies" },
+    { "id": "startup-mentoring", "label": "Startup Mentoring" },
+    { "id": "business-incubation", "label": "Business Incubation" },
+    { "id": "strategic-partnerships", "label": "Strategic Partnerships" },
+    { "id": "blockchain", "label": "Blockchain" },
+    { "id": "edtech", "label": "EdTech" },
+    { "id": "cmmi", "label": "CMMI" },
+    { "id": "risk-management", "label": "Project Risk Management" },
+    { "id": "project-estimation", "label": "Project Estimation" },
+    { "id": "cisco-ccna", "label": "Cisco CCNA" },
+    { "id": "pl-ownership", "label": "P&L Ownership" },
+    { "id": "enterprise-ai-sales", "label": "Enterprise AI Sales" },
+    { "id": "ecosystem-selling", "label": "Ecosystem Selling (Microsoft / AWS)" },
+    { "id": "agile-jira", "label": "Agile / Jira" },
+    { "id": "product-development", "label": "Product Development" }
+  ],
+  "projects": [
+    {
+      "id": "metaverse-fundraise",
+      "title": "Raised $2.9M USD — Metaverse Project",
+      "description": "Successfully secured $2.9M USD investment from Polka Starter, the #1 Blockchain Launchpad in the world, for a metaverse project.",
+      "link": "https://drive.google.com/file/d/17uXo8Ea3eIBko_YPwvbqtceR7kBVdAd/view?usp=sharing",
+      "linkLabel": "View Whitepaper"
+    },
+    {
+      "id": "voicegpt",
+      "title": "Bootstrapped VoiceGPT — 450K Users in 45 Days",
+      "description": "Growth hacked VoiceGPT to 450,000 users in 45 days, making it one of Vietnam's fastest-growing AI tools, then successfully exited.",
+      "link": "https://nhipcaudautu.vn/cong-nghe/tao-voicegpt-mien-phi-cho-nguoi-viet-tu-chatgpt-3350659/",
+      "linkLabel": "Read Article"
+    },
+    {
+      "id": "mandoscan",
+      "title": "MandoScan — Smart Contract Audit (Singapore)",
+      "description": "Mentoring a multinational team of PhD professionals in Singapore building an automated smart contract audit system. Team received an SMU grant and is finalizing $400K SGD in gap funding.",
+      "link": "https://mandoscan.com/",
+      "linkLabel": "View dApp"
+    },
+    {
+      "id": "botbot-ai-sales",
+      "title": "Enterprise AI Sales Before ChatGPT",
+      "description": "Sold Botbot.ai to Sacombank and TP Bank — major Vietnamese banks — establishing enterprise AI penetration before the GPT era via Microsoft and AWS ecosystem partnerships.",
+      "link": null,
+      "linkLabel": null
+    },
+    {
+      "id": "vietcap-transformation",
+      "title": "Enterprise Platform Transformation (In Progress)",
+      "description": "Leading full-stack transformation at a confidential securities client: legacy platform replacement, AI-assisted SDLC, Jira management overhaul, and Vibe Coding adoption for the new core trading platform.",
+      "link": null,
+      "linkLabel": null
+    }
+  ],
+  "education": [
+    {
+      "degree": "Doctor of Business Administration (DBA)",
+      "institution": "Thesis: AI in Business",
+      "years": "Expected 2027"
+    },
+    {
+      "degree": "Graduate Certificate in Tertiary Teaching and Learning",
+      "institution": "RMIT University, Melbourne",
+      "years": "2010 – 2012"
+    },
+    {
+      "degree": "Master of Business Administration",
+      "institution": "Bolton University, UK",
+      "years": "2008 – 2010"
+    },
+    {
+      "degree": "Bachelor of Applied Science in IT",
+      "institution": "RMIT University, Vietnam",
+      "years": "2002 – 2004"
+    },
+    {
+      "degree": "Higher Diploma of System Engineering",
+      "institution": "Aptech, India",
+      "years": "1999 – 2001"
+    },
+    {
+      "degree": "IELTS 7",
+      "institution": "British Council",
+      "years": "2006 – 2007"
+    }
+  ],
+  "investments": [
+    { "name": "TBLABS", "url": "https://tblabs.org/" },
+    { "name": "LEGAL3", "url": "https://www.legal3.tech/" },
+    { "name": "GROUP CAST", "url": "#" }
+  ]
+}

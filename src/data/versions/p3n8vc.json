@@ -1,0 +1,40 @@
+{
+  "layout": "ai-gm",
+  "headline": "General Manager · Serial Entrepreneur · AI & Enterprise Transformation Leader",
+  "bio": "Dynamic innovation leader with a founder's mindset and operator's discipline. Led teams of 50+, raised $2.9M, growth-hacked 450K users in 45 days, and sold enterprise AI (Botbot.ai) to major Vietnamese banks before ChatGPT existed. Now serving as PM & Senior Consultant at Synthesis, leading a full-stack transformation at a leading securities firm — replacing a 12-year-old legacy system, implementing AI-assisted SDLC, Jira-based management transformation, and Vibe Coding for their new core platform. Experienced in ecosystem selling with Microsoft and AWS partners. MBA (Bolton University, UK). DBA candidate (thesis: AI) — graduating 2027.",
+  "introNote": null,
+  "pdfUrl": "/cv/george-nguyen-cv.pdf",
+  "currentRoleId": "synthesis-vietcap",
+  "featuredExperienceIds": ["co-founder-jdi-one", "managing-director-tesse-lab", "country-manager-2359"],
+  "visibleExperienceIds": [
+    "synthesis-vietcap",
+    "co-founder-jdi-one",
+    "managing-director-tesse-lab",
+    "country-manager-2359",
+    "president-we-ecosystem",
+    "lecturer-rmit-innovation",
+    "blockchain-consultant-mard",
+    "national-ecommerce-dhl",
+    "trade-marketing-bat",
+    "project-manager-nortel",
+    "developer-lead-nortel"
+  ],
+  "visibleSkillIds": [
+    "team-leadership",
+    "innovation-design",
+    "entrepreneurship-edu",
+    "pl-ownership",
+    "enterprise-ai-sales",
+    "ecosystem-selling",
+    "startup-mentoring",
+    "product-development",
+    "stakeholder-engagement",
+    "cross-functional",
+    "revenue-strategies",
+    "project-management",
+    "cmmi",
+    "agile-jira",
+    "blockchain"
+  ],
+  "visibleProjectIds": ["metaverse-fundraise", "voicegpt", "botbot-ai-sales", "mandoscan", "vietcap-transformation"]
+}

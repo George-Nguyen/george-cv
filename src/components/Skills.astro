@@ -1,0 +1,20 @@
+---
+export interface Skill {
+  id: string;
+  label: string;
+}
+export interface Props {
+  skills: Skill[];
+}
+const { skills } = Astro.props;
+---
+<section id="skills" class="py-section-mobile md:py-section bg-background">
+  <div class="max-w-content mx-auto px-6">
+    <span class="section-label">Core Competencies</span>
+    <div class="flex flex-wrap gap-3">
+      {skills.map((skill) => (
+        <span class="chip">{skill.label}</span>
+      ))}
+    </div>
+  </div>
+</section>

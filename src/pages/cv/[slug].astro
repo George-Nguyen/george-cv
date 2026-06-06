@@ -1,0 +1,103 @@
+---
+import CVLayout from '../../layouts/CVLayout.astro';
+import Nav from '../../components/Nav.astro';
+import Hero from '../../components/Hero.astro';
+import Experience from '../../components/Experience.astro';
+import Skills from '../../components/Skills.astro';
+import Projects from '../../components/Projects.astro';
+import CurrentRoleCard from '../../components/CurrentRoleCard.astro';
+import Contact from '../../components/Contact.astro';
+import Footer from '../../components/Footer.astro';
+import '../../styles/global.css';
+
+import base from '../../data/base.json';
+
+export async function getStaticPaths() {
+  const versionFiles = import.meta.glob('../../data/versions/*.json', { eager: true });
+  return Object.entries(versionFiles).map(([path, mod]: [string, any]) => {
+    const slug = path.split('/').pop()!.replace('.json', '');
+    return { params: { slug }, props: { version: mod.default ?? mod } };
+  });
+}
+
+const { version } = Astro.props as { version: any };
+
+const layout     = version.layout ?? 'default';
+const isAiGm     = layout === 'ai-gm';
+const headline   = version.headline ?? base.title;
+const bio        = version.bio ?? base.bio;
+const pdfUrl     = version.pdfUrl ?? base.pdfUrl;
+const introNote  = version.introNote ?? null;
+
+// Experience
+const visibleIds: string[]  = version.visibleExperienceIds ?? base.experience.map((e: any) => e.id);
+const featuredIds: string[] = version.featuredExperienceIds ?? [];
+const currentRoleId: string = version.currentRoleId ?? '';
+
+const experience = base.experience
+  .filter((e: any) => visibleIds.includes(e.id) && e.id !== currentRoleId)
+  .map((e: any) => ({ ...e, featured: featuredIds.includes(e.id) }));
+
+const currentRole = isAiGm
+  ? (base.experience as any[]).find((e) => e.id === currentRoleId)
+  : null;
+
+// Skills
+const skillIds: string[] = version.visibleSkillIds ?? base.skills.map((s: any) => s.id);
+const skills = base.skills.filter((s: any) => skillIds.includes(s.id));
+
+// Projects / Achievements
+const projectIds: string[] = version.visibleProjectIds ?? base.projects.map((p: any) => p.id);
+const projects = base.projects.filter((p: any) => projectIds.includes(p.id));
+---
+
+<CVLayout name={base.name} title={headline}>
+  <Nav name={base.name} pdfUrl={pdfUrl} layout={layout} />
+  <main>
+    <Hero
+      name={base.name}
+      headline={headline}
+      bio={bio}
+      photo={base.photo}
+      pdfUrl={pdfUrl}
+      introNote={introNote}
+    />
+
+    {isAiGm && currentRole && (
+      <section id="experience" class="py-section-mobile md:py-section bg-surface-container-low">
+        <div class="max-w-content mx-auto px-6">
+          <span class="section-label">Work Experience</span>
+          <CurrentRoleCard
+            role={currentRole.role}
+            company={currentRole.company}
+            dates={currentRole.dates}
+            bullets={currentRole.bullets}
+          />
+          <Experience items={experience} />
+        </div>
+      </section>
+    )}
+
+    {!isAiGm && <Experience items={experience} />}
+
+    {isAiGm ? (
+      <Projects
+        projects={projects}
+        anchor="achievements"
+        eyebrow="Key Achievements"
+        heading="What I've Built & Delivered"
+      />
+    ) : (
+      <Projects projects={projects} />
+    )}
+
+    <Skills skills={skills} />
+    <Contact
+      email={base.email}
+      phone={base.phone}
+      telegram={base.telegram}
+      linkedin={base.linkedin}
+    />
+  </main>
+  <Footer name={base.name} />
+</CVLayout>

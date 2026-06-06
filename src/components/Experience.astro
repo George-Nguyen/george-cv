@@ -1,0 +1,42 @@
+---
+export interface ExperienceItem {
+  id: string;
+  role: string;
+  company: string;
+  project?: string;
+  bullets: string[];
+  featured?: boolean;
+}
+export interface Props {
+  items: ExperienceItem[];
+}
+const { items } = Astro.props;
+---
+<section id="experience" class="py-section-mobile md:py-section bg-surface-container-low">
+  <div class="max-w-content mx-auto px-6">
+    <span class="section-label">Professional Experience</span>
+    <div class="max-w-3xl">
+      {items.map((item) => (
+        <div class={`timeline-item ${item.featured ? 'featured' : ''}`}>
+          <!-- Role & company -->
+          <div class="mb-3">
+            <h3 class="text-headline-sm text-primary font-semibold">{item.role}</h3>
+            <p class="text-label-caps text-secondary uppercase tracking-widest mt-1">{item.company}</p>
+            {item.project && (
+              <p class="text-body-md text-on-surface-variant mt-1 italic">Project: {item.project}</p>
+            )}
+          </div>
+          <!-- Bullets -->
+          <ul class="space-y-2">
+            {item.bullets.map((b) => (
+              <li class="flex gap-3 text-body-md text-on-surface-variant">
+                <span class="mt-2 w-1.5 h-1.5 bg-primary-container flex-shrink-0"></span>
+                <span>{b}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

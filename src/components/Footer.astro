@@ -1,0 +1,13 @@
+---
+export interface Props {
+  name: string;
+}
+const { name } = Astro.props;
+const year = new Date().getFullYear();
+---
+<footer class="bg-primary border-t border-primary-container py-8">
+  <div class="max-w-content mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+    <span class="text-label-caps text-on-primary opacity-40 uppercase tracking-widest">{name}</span>
+    <span class="text-label-caps text-on-primary opacity-40">© {year}</span>
+  </div>
+</footer>
