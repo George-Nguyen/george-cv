@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/pitchsend",
+      "destination": "https://pitchsend-zeta.vercel.app/pitchsend"
+    },
+    {
+      "source": "/pitchsend/:path*",
+      "destination": "https://pitchsend-zeta.vercel.app/pitchsend/:path*"
+    }
+  ]
+}
