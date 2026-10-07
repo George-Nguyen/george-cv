@@ -11,6 +11,18 @@
     {
       "source": "/pitchsend/:path*",
       "destination": "https://pitchsend-zeta.vercel.app/pitchsend/:path*"
+    },
+    {
+      "source": "/bookly",
+      "destination": "https://bookly-ruddy.vercel.app/bookly"
+    },
+    {
+      "source": "/bookly/",
+      "destination": "https://bookly-ruddy.vercel.app/bookly"
+    },
+    {
+      "source": "/bookly/:path*",
+      "destination": "https://bookly-ruddy.vercel.app/bookly/:path*"
     }
   ]
 }
